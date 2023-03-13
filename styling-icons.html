@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/335658c98c.js" crossorigin="anonymous"></script>
+        <title>Styling Button</title>
+        <style>
+            button{
+                color: white;
+                outline:none;
+                border: none;
+                padding: 8px 16px;
+                border-radius: 8px;
+            }
+            #btn-login{
+                background-color: blue;
+                cursor: pointer;
+            }
+            #btn-login:hover{
+                background-color: white;
+                color: white;
+            }
+            #btn-signup{
+                background-color: lightcoral;
+                outline:none;
+                border:  2px solid lightblue;
+                cursor: pointer;
+            }
+            #btn-signup:hover{
+                background-color: lightblue;
+                color: white;
+            }
+            #btn-disabled{
+                background-color: black;
+                opacity: 0.6;
+                cursor: not-allowed;
+            }
+            button > .label{
+                padding-left: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="btn-login"><i class="fab fa-facebook-f"></i><span class="label">Facebook</span></button>
+
+        <button id="btn-signup"><i class="fab fa-google"></i><span class="label">Sign up</span></button>
+
+        <button id="btn-disabled"><i class="fab fa-github"></i><span class="label">Github</span></button>
+    </body>
+</html>
