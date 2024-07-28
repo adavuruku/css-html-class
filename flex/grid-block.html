@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The net nainja</title>
+        <link rel="stylesheet" type="text/css" href="grid-block.css"/>
+        <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="social">
+                    <li><a href="#facebook" class="fb">Facebook</a></li>
+                    <li><a href="#twitter" class="tw">Twitter</a></li>
+                </ul>
+            </nav>
+
+            <div style="margin: 20px">
+
+                <span>Layout: </span>
+                <a href="#" class="stack">Stack</a>
+                <a href="#" class="grid">Grid</a>
+
+            </div>
+
+            <section id="block">
+                <article>
+                    <h2>I pity the fool</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste nisi, voluptates omnis velit distinctio consequuntur facilis quia maiores pariatur cumque! Eaque adipisci voluptatibus, suscipit molestias placeat possimus reiciendis ut.
+                    Maxime excepturi voluptatum minima recusandae, in molestias suscipit quibusdam veritatis dolores minus adipisci esse expedita, asperiores nisi nostrum eligendi ipsum voluptatibus nihil. Laborum officiis similique repellendus cumque tenetur impedit molestias!
+                    </p>
+                </article>
+                <article>
+                    <h2>Get to the chopper</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error quo ad, nobis excepturi voluptate dolore laudantium illum iusto commodi temporibus odio quaerat sint cumque soluta at, numquam ipsam? Perspiciatis. Lorem, ipsum dolor.
+                        Aliquam libero, exercitationem, esse dolor officia ut veniam id modi ex autem voluptate consequatur est consequuntur repellendus. Cumque nam rerum illo. Recusandae architecto voluptatem alias quas quis quisquam illo sed.</p>
+                </article>
+                <article>
+                    <h2>Whats a horse doing on a spaceship</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error quo ad, nobis excepturi voluptate dolore laudantium illum iusto commodi temporibus odio quaerat sint cumque soluta at, numquam ipsam? Perspiciatis. Lorem, ipsum dolor.
+                        Aliquam libero, exercitationem, esse dolor officia ut veniam id modi ex autem voluptate consequatur est consequuntur repellendus. Cumque nam rerum illo. Recusandae architecto voluptatem alias quas quis quisquam illo sed.</p>
+                </article>
+                <article>
+                    <h2>Pity him alot</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error quo ad, nobis excepturi voluptate dolore laudantium illum iusto commodi temporibus odio quaerat sint cumque soluta at, numquam ipsam? Perspiciatis. Lorem, ipsum dolor.
+                        Aliquam libero, exercitationem, esse dolor officia ut veniam id modi ex autem voluptate consequatur est consequuntur repellendus. Cumque nam rerum illo. Recusandae architecto voluptatem alias quas quis quisquam illo sed.</p>
+                </article>
+                <article>
+                    <h2>Women word</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error quo ad, nobis excepturi voluptate dolore laudantium illum iusto commodi temporibus odio quaerat sint cumque soluta at, numquam ipsam? Perspiciatis. Lorem, ipsum dolor.
+                        Aliquam libero, exercitationem, esse dolor officia ut veniam id modi ex autem voluptate consequatur est consequuntur repellendus. Cumque nam rerum illo. Recusandae architecto voluptatem alias quas quis quisquam illo sed.</p>
+                </article>
+                <article>
+                    <h2>Heroes are born now</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus deserunt voluptatibus eveniet consectetur temporibus recusandae reiciendis vitae aut debitis enim delectus, sunt qui dolores eius dicta quam! Assumenda, accusamus laboriosam.
+                    Possimus, ab velit doloribus suscipit deserunt labore quasi blanditiis nam expedita molestias aliquam id beatae dicta quia natus explicabo voluptatum, totam error unde. Laborum velit quod ipsum quae eum culpa!
+                    Facilis, perferendis non! Laboriosam, suscipit. Impedit deleniti consequatur obcaecati debitis, saepe unde cum corrupti necessitatibus sequi modi ipsa distinctio ab et nulla provident ad sint eligendi, ullam ipsam, cupiditate nostrum?</p>
+                </article>
+            </section>
+        </div>
+        <script>
+            $("a.stack").on("click", function(){
+                $("article").addClass("stack");
+            });
+            $("a.grid").on("click", function(){
+                $("article").removeClass("stack");
+            });
+        </script>
+    </body>
+</html>

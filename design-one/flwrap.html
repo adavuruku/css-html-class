@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Wrap Example</title>
+    <style>
+        #main {
+            display: flex;
+            /* flex-direction: row; */
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 1050px;
+            margin: 0 auto;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+
+        .flex-item {
+            flex: 1 1 300px; /* Allow items to grow and shrink, with a basis of 300px */
+            margin: 10px;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+        <div class="flex-item">Item 5</div>
+        <div class="flex-item">Item 6</div>
+    </div>
+</body>
+</html>

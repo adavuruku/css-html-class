@@ -1,0 +1,36 @@
+.wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.ret{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(34, 35, 35);
+}
+/* 
+    Static is normal or default document flow
+
+    relative: is use to define a container that can take absolute position element
+
+    absolute: element position with respect to its container
+    it scroll with its container
+
+    fixed: element position with respect to the browser window.
+    so it doesnt scroll with the entire html page
+
+    sticky: unlike fixed can become static and sticky
+    sticky can beccome fixed at a define point and become static at another point
+
+    when item is positioned absolutely it comes out of actual document flow
+
+    em -> take the value of parents size and multiply by the value of em.
+    0.5em and parent is 70px;
+    the em will be 35px
+
+
+    display
+*/
