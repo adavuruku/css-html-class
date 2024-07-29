@@ -1,30 +1,50 @@
 
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 #main{
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1050px;
+    width: 1000px;
     margin: 0 auto;
     background-color: antiquewhite;
     padding: 10px;
 }
-.wrapper{
-    max-width: 250px;
-    flex: 1 1 200px;
-    /* border: 2px #b344 solid; */
+.row{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    /* flex-grow: 1 0 200px; */
+
+}
+
+
+/* cards */
+.wrapper{
+    max-width: 30%;
+    /* max-height: 20%; */
+    flex-grow: 1 1 100vh;
+    display: flex;
+    padding-bottom: 20px ;
     flex-direction: column;
     position: relative;
     background-color: hwb(0 98% 1%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 4vh;
+    border-top-right-radius: 4vh;
 }
 
 .top-items{
-    height: 250px;
+    height: 60%;
     flex-grow: 1;
-    border-radius: 15px;
+    border-radius: 4vh;
 }
 .top-items img{
     width: 100%;
@@ -32,13 +52,16 @@
     object-fit: cover;
     border-radius: 15px;
 }
-button{
-    flex-grow: 1;
+
+
+.btn-container{
     cursor: pointer;
     position: absolute;
-    top: 232px;
-    left: 45px;
-    border-radius: 25px;
+    width: 40%;
+    height: 10%;
+    top: 80%;
+    left: 40%;
+    border-radius: 50px;
     overflow: hidden;
     background-color: #fff;
     font-size: 15px;
@@ -60,4 +83,14 @@ button{
 .text{
     margin-top: 30px;
     padding: 0 10px;
+}
+
+@media (min-width: 450px) {
+   .row{
+        flex-direction: column;
+    }
+    .wrapper{
+        max-width: 100%;
+        /* max-height: 20%; */
+    }
 }

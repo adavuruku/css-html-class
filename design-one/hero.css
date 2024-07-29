@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #eb3a3a;
+  }
+  
+  h1 {
+    font-size: 5vw;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 8vw;
+    }
+  }
+  

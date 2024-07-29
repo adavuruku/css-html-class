@@ -1,0 +1,101 @@
+flex box
+
+1. is for layout design
+
+nav bar and menu, grid layout, bar charts, equal height columns
+Moderniz
+
+min-width, max-width
+
+
+flex (to conver a container to a flex), 
+
+flex-grow (the size of items base on ration of size provide for each item), 
+
+flex-shrink (determine the size of item as browser size reduce [the higher the size the smaller the items])
+
+flex-basis {is like min-width property the difference is that min width enforce the width size and add scroll but flex-basis is smart enough to addjust the min width}
+
+short hand
+flex: grow shrink basis
+
+flex: 1 -> grow and shrink is 1, basis is 0 
+
+Note: flex-grow flex-shrink flext-basis are apply to flex child not the parent (flex-container)
+
+
+
+flex-wrap (when the item have no space to occupy, the last items goes to the bottom [wrap] or top[wrap-reverse] nowrap[it add scrollbar as default])
+flex-wrap is apply to flex container
+
+
+
+display: block -> item will cover the entire width instead covering only the text
+
+display: inline -> item will allow another item to stay behind it
+
+
+text-indent
+
+difference btwn background and background-image
+
+
+
+
+flex-flow
+
+align-item s [apply cross axis] [the flex flow opposite direction]
+justify-content [main axis] [the flex flow direction]
+
+
+box-sizing
+
+#######################
+
+Note: float hack in css
+
+nav ul: after{
+    content:"";
+    display:block;
+    clear: both;
+}
+
+fix position are always related to the root elemet -> body
+#####
+1. Web Speech API
+
+2. Web Storage API (LOCALSTORAGE, Session Storage)
+
+3. Web Fetch API
+
+4. Web Geolocation API
+
+5. Web Canvas API
+
+6. Web Audio API
+
+7. Web Socket API
+
+8. Web IndexDB API
+
+9. Web File API
+
+10. Web Notification API
+
+11. Web Workers API
+
+12. Web Intersection Observer API
+
+13. Web Mutation Observer API
+
+14. Web Pointer Lock API
+
+15. Web Battery Status API
+
+16. Web Gamepad API
+
+17. Web device orientation and motion API
+
+18. web Push API
+
+19. Web Payment Request API
