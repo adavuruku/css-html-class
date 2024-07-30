@@ -1,4 +1,5 @@
 flex box
+https://www.youtube.com/results?search_query=make+a+landing+page+html+css+
 
 1. is for layout design
 
@@ -40,6 +41,9 @@ text-indent
 difference btwn background and background-image
 
 
+gap : a css property use to create space between flex items
+vertical-gap
+horizontal-gap
 
 
 flex-flow

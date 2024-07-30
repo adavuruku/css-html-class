@@ -3,6 +3,33 @@
 https://dev.to/bigsondev/10-projects-to-master-frontend-web-development-acm
 */
 
+/* writting-mode: :vertical */
+/* gap: 24px or row-gap or column-gap 
+
+transform: scale(-1)
+
+scroll-behaviour: smooth
+
+scroll-snap-align: x mandatory
+
+scroll-snap-type: x mandatory
+
+overflow: auto
+resize: both or vertical horizontal
+
+
+p{
+    max-width: 20 rem
+    display: -webkit-box
+    -webkit-line-clamo:1
+    -webkit-box-orient: verticaloverflow: hidden
+}
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+*/
+
 *{
     padding: 0px;
     margin: 0px;
