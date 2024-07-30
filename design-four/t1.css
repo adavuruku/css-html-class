@@ -1,0 +1,35 @@
+.title::before {
+    content: " ★";
+    color: gold;
+    font-size: 24px;
+    margin-left: 10px;
+    border: 3px solid black;
+  }
+
+  .ts .title::after{
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translate(-60%, -50%);
+    font-size: 8rem;
+    font-weight: 600;
+    color: var(--white);
+    opacity: 0.1;
+    z-index: -1;
+    content: "02";
+    border: 3px solid black;
+  }
+
+
+  
+  .title{
+    position: relative;
+    isolation: isolate;
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--secondary-color)
+  }
+  
