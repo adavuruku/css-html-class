@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        
+    </title>
+    <style>
+        #d1 ul li:last-of-type{
+            padding: 20px;
+            background-color: red;
+        }
+
+        #d1 ul li:first-child{
+            padding: 20px;
+            background-color: rgb(75, 36, 231);
+        }
+
+        li:last-child{
+            padding: 20px;
+            background-color: rgb(43, 7, 7);
+        }
+        div:empty{
+            padding: 20px;
+            background-color: rgb(138, 90, 90);
+        }
+        p:nth-of-type(even) {
+            color: blue;
+        }
+        p:nth-child(2n-1){
+            color: red;
+        }
+
+        /* Description: Applies styles to an element that matches the URL fragment (e.g., #section1). */
+        #section1:target {
+            border: 2px solid blue;
+        }
+
+        input:disabled {
+            background-color: #e0e0e0;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a. Error nemo sequi sapiente quia harum excepturi cupiditate cum eius impedit quidem tempore omnis, dolores ipsam deserunt labore voluptate quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a. Error nemo sequi sapiente quia harum excepturi cupiditate cum eius impedit quidem tempore omnis, dolores ipsam deserunt labore voluptate quae.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a. Error nemo sequi sapiente quia harum excepturi cupiditate cum eius impedit quidem tempore omnis, dolores ipsam deserunt labore voluptate quae.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a. Error nemo sequi sapiente quia harum excepturi cupiditate cum eius impedit quidem tempore omnis, dolores ipsam deserunt labore voluptate quae.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, a. Error nemo sequi sapiente quia harum excepturi cupiditate cum eius impedit quidem tempore omnis, dolores ipsam deserunt labore voluptate quae.</p>
+    
+
+      <div id="d1">
+        <ul>
+            <li>Hawa</li>
+            <li>Hello</li>
+            <li>Abuja</li>
+        </ul>
+      </div> 
+      <div id="d2">
+        <ul>
+            <li>Melon</li>
+            <li>Tabs</li>
+            <li>Job</li>
+        </ul>
+      </div>
+      <div>
+
+      </div>
+      <div class="location">
+
+      </div>
+      <div class="late">
+
+      </div>
+      <input type="text" />       
+      <input type="button" disabled="disabled"/>       
+      <input type="text" disabled="disabled"/>       
+</body>
+</html>
