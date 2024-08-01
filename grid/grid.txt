@@ -1,0 +1,30 @@
+header, nav, main, aside,  footer
+
+https://github.com/iamshaunjp/css-grid-playlist/blob/lesson-1/grids.html
+
+Note: if you have 10 divs (block element) and u specify grid column of 3
+the result will be 4 rows (first 3 rows will have 3 columns 3x3=9) last column will have 1 row 1 column 1x1=1
+
+
+grid-auto-rows: property is to define the height of rows. instead using the height of one cell to define the height of cells in the row
+
+grid-auto-rows: minmax(200px, auto) -> to speciify that all cells in a row to take a height of 200px but if theres a cell with a content that gives a height greater than 200px, use the height of the cell for every other cell (auto).
+
+nested grid inherits the colum and rows of its parent. so appllyiong a span of either colum or row aautomatically apply to the parents [lesson_5.html]
+
+
+/* align-items: start; end or stretch(default) [y axis]*/
+			/*justify-items: start; end or stretch(default) [x axis]*/
+        /*align-self: justify-self is used to align items in their respective cell not their entire grid;*/
+        align-self: end;
+			justify-self: start; [lesson_6.html]
+
+
+            ##
+
+grid-area: row-start / column-start / row-end / column-end;
+
+grid-area: 1 / 2 / 2 / 3; -> cover row 1-2 and column 2-3
+
+grid-row: 1/2
+grid-column: 2/3
