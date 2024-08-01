@@ -2,6 +2,8 @@ header, nav, main, aside,  footer
 
 https://github.com/iamshaunjp/css-grid-playlist/blob/lesson-1/grids.html
 
+https://www.youtube.com/watch?v=x7tLPhnA06w&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY
+
 Note: if you have 10 divs (block element) and u specify grid column of 3
 the result will be 4 rows (first 3 rows will have 3 columns 3x3=9) last column will have 1 row 1 column 1x1=1
 
